@@ -11,7 +11,3 @@ A packaged "Meet The Team" page management setup for WordPress themes. This acco
 * Transient caching for output in a single request
 
 Read the [full article](http://www.kevinleary.net/meet-team-page-wordpress/), or view the [example team page](http://www.kevinleary.net/wordpress-team-page/).
-
-
-
-
