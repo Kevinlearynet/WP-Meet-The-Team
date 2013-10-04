@@ -1,0 +1,87 @@
+/* ==================================================
+   Team profiles
+   ================================================== */
+.profiles {
+  margin-bottom: -20px;
+}
+.intro {
+  padding-left: 140px;
+}
+.intro h2 {
+  margin: 0 0 7px;
+}
+.intro .lead {
+  line-height: 120%;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 0 0 35px;
+}
+.profile {
+  position: relative;
+  margin: 0 0 20px;
+}
+.profile:nth-child(even) {
+  clear: left;
+}
+.profile-header {
+  position: absolute;
+  top: 0;
+}
+.profile-header img {
+  float: left;
+}
+.profile-content {
+  font-size: 14px;
+  padding: 27px 20px 0 0;
+  line-height: 1.4em;
+  margin: 0 0 0 125px;
+}
+.profile-content h3 {
+  margin: 0;
+}
+.profile-content .lead {
+  font-size: 1.3em;
+  line-height: 100%;
+  font-style: italic;
+  margin: 3px 0 20px;
+}
+.profile-content:before {
+  content: '';
+  width: 36px;
+  height: 3px;
+  background: #dededc;
+  position: absolute;
+  top: 0;
+}
+.profile-content p {
+  margin: 0 0 10px;
+}
+.profile-footer {
+  position: absolute;
+  top: 121px;
+  width: 100px;
+  text-align: center;
+}
+.profile-footer a {
+  line-height: 18px;
+  margin: 0 3px;
+  display: inline-block;
+}
+.profile-footer a:hover i {
+  color: #595959;
+}
+.profile-footer a:active i {
+  color: #000;
+}
+.profile-footer i {
+  font-size: 18px;
+  position: relative;
+}
+.profile-footer i.icon-envelope {
+  font-size: 16px;
+  top: -1px;
+}
+.profile-footer i.icon-linkedin {
+  font-size: 16px;
+  top: -1px;
+}
