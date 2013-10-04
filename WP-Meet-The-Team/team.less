@@ -1,0 +1,99 @@
+/* ==================================================
+   Team profiles
+   ================================================== */
+  
+// Mixins
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+// Global
+.profiles {
+	margin-bottom: -20px; // Offset adjustment
+}
+.intro {
+	padding-left: 140px;
+	h2 {
+		margin: 0 0 7px;
+	}
+	.lead {
+		line-height: 120%;
+		font-size: 1.1em;
+		font-style: italic;
+		margin: 0 0 35px;
+	}
+}
+.profile {
+	position: relative;
+	margin: 0 0 20px;
+	&:nth-child(even) {
+		clear: left;
+	}
+}
+
+// Header
+.profile-header {
+	position: absolute;
+	top: 0;
+	img {
+		float: left;
+	}
+}
+
+// Content
+.profile-content {
+	font-size: 14px;
+	padding: 27px 20px 0 0;
+	line-height: 1.4em;
+	margin: 0 0 0 125px;
+	h3 {
+		margin: 0;
+	}
+	.lead {
+		font-size: 1.3em;
+		line-height: 100%;
+		font-style: italic;
+		margin: 3px 0 20px;
+	}
+	// Top separator
+	&:before {
+		content: '';
+		width: 36px;
+		height: 3px;
+		background: #dededc;
+		position: absolute;
+		top: 0;
+	}
+	p {
+		margin: 0 0 10px;
+	}
+}
+
+// Footer
+.profile-footer {
+	position: absolute;
+	top: 121px;
+	width: 100px;
+	text-align: center;
+	a {
+		line-height: 18px;
+		margin: 0 3px;
+		display: inline-block;
+	}
+	a:hover i { color: #595959; }
+	a:active i { color: #000; }
+	i {
+		font-size: 18px;
+		position: relative;
+	}
+	i.icon-envelope {
+		font-size: 16px;
+		top: -1px;
+	}
+	i.icon-linkedin {
+		font-size: 16px;
+		top: -1px;
+	}
+}
