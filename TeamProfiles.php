@@ -216,7 +216,7 @@ class TeamProfiles
 			endif; // end if $team_posts
 
 		   // Store output in cache
-		   set_transient($transient_label, $html);
+		   set_transient( $transient_label, $html, DAY_IN_SECONDS );
 		}
 		
 		// Output the HTML if it exists
