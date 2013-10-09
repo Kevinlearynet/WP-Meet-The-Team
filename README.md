@@ -1,4 +1,4 @@
-# WordPress "Meet The Team" Setup
+# "Meet The Team" Template Setup for WordPress
 
 A packaged "Meet The Team" page management setup for WordPress themes. This accompanies a step by step tutorial I've written for [CSS-Tricks](http://css-tricks.com/creating-meet-team-page-wordpress/).
 
